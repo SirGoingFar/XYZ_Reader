@@ -1,11 +1,21 @@
 <resources>
     <!-- detail -->
     <dimen name="detail_title_text_size">32sp</dimen>
-    <dimen name="detail_body_text_size">22sp</dimen>
+    <dimen name="detail_body_text_size">18sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
 
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="list_item_margin_top">8dp</dimen>
+    <dimen name="list_item_card_height">32dp</dimen>
+    <dimen name="dimen_200dp">200dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="init_scroll_down_distance">70dp</dimen>
+    <dimen name="init_scroll_up_distance">300dp</dimen>
 
 </resources>
