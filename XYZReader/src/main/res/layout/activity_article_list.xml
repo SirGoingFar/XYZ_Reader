@@ -9,14 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        app:elevation="4dp">
+        app:elevation="@dimen/dimen_4dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/dimen_200dp"
             app:collapsedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:contentScrim="@color/colorPrimary"
-            app:expandedTitleMarginStart="40dp"
+            app:expandedTitleMarginStart="@dimen/dimen_40dp"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
@@ -34,7 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                app:contentInsetStart="16dp"
+                app:contentInsetStart="@dimen/dimen_16dp"
                 app:layout_collapseMode="pin" />
 
         </android.support.design.widget.CollapsingToolbarLayout>

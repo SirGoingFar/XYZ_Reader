@@ -33,4 +33,7 @@
     <color name="theme_icon">#FFFFFF</color>
 
     <color name="ltgray">#ffe0e0e0</color>
+    <color name="colorWhite_70_opacity">#B3FFFFFF</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorWhite_56_opacity">#8fff</color>
 </resources>
